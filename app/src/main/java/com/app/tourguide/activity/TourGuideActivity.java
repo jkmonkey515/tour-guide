@@ -24,6 +24,7 @@ import java.util.List;
 public class TourGuideActivity extends AppCompatActivity {
 
     ListView listView;
+    private TourSearch tourSearch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,18 +50,13 @@ public class TourGuideActivity extends AppCompatActivity {
         String category4season = getIntent().getStringExtra("category4");
         String category5duration = getIntent().getStringExtra("category5");
 
-        TourGuideResponse tourGuideResponse = JsonParser.parseJson(this);
-        if (tourGuideResponse != null) {
-            List<Tour> tours = tourGuideResponse.getTours();
-            Log.d("tours", "tours: " + tours.size());
-            List<Tour> filteredTours = TourSearch.searchTours(tours, category1type, category2theme, category3region, category4season, category5duration);
-            loadUI(filteredTours);
-        }
+        tourSearch = new TourSearch(this);
+        List<Tour> filteredTours = tourSearch.searchTours(category1type, category2theme, category3region, category4season, category5duration);
+
+        loadUI(filteredTours);
     }
 
     private void loadUI(List<Tour> filteredTours) {
-        Log.d("filteredTours", "filteredToursN: " + filteredTours.size());
-
         List<TourItem> items = new ArrayList<>();
 
         if (filteredTours.isEmpty()) {

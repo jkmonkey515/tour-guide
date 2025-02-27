@@ -18,6 +18,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.app.tourguide.R;
+import com.app.tourguide.db.DataImporter;
 import com.app.tourguide.enums.Category1Type;
 import com.app.tourguide.enums.Category2Theme;
 import com.app.tourguide.enums.Category3Region;
@@ -73,6 +74,9 @@ public class MainActivity extends AppCompatActivity implements
             txvTitle.setText(getResources().getStringArray(R.array.trip_questions)[0]);
             loadFragment(new Onboarding1Fragment());
         }
+
+        new DataImporter(this).importDataFromJson();
+
     }
 
     private void loadFragment(Fragment fragment) {
