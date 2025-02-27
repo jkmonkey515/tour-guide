@@ -5,24 +5,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.Onboarding4Fragment"
-    android:background="@drawable/onboarding_bg"
-    android:orientation="vertical">
+    >
 
-    <!-- Question Text -->
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Which season do you prefer to travel?"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="22sp"
-        android:textStyle="italic"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="50dp" />
 
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
