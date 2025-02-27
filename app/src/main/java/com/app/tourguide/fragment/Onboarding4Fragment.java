@@ -1,66 +1,64 @@
 package com.app.tourguide.fragment;
 
+import android.content.Context;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.app.tourguide.R;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link Onboarding4Fragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import com.app.tourguide.R;
+import com.app.tourguide.enums.Category4Season;
+import com.google.android.material.imageview.ShapeableImageView;
+
 public class Onboarding4Fragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private ShapeableImageView springImageView, summerImageView, autumnImageView, winterImageView;
+    private OnCategory4SelectedListener categorySelectedListener;
+    public interface OnCategory4SelectedListener {
+        void onCategory4Selected(Category4Season category);
+    }
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    @Override
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(context);
+        if (context instanceof OnCategory4SelectedListener) {
+            categorySelectedListener = (OnCategory4SelectedListener) context;
+        } else {
+            throw new ClassCastException(context.toString() + " must implement OnCategorySelectedListener.");
+        }
+    }
 
     public Onboarding4Fragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment Onboarding4Fragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static Onboarding4Fragment newInstance(String param1, String param2) {
-        Onboarding4Fragment fragment = new Onboarding4Fragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
+    public static Onboarding1Fragment newInstance(String param1, String param2) {
+        return new Onboarding1Fragment();
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_onboarding4, container, false);
+
+        springImageView = view.findViewById(R.id.spring);
+        summerImageView = view.findViewById(R.id.summer);
+        autumnImageView = view.findViewById(R.id.autumn);
+        winterImageView = view.findViewById(R.id.winter);
+
+        springImageView.setOnClickListener(v -> notifyCategorySelected(Category4Season.SPRING));
+        summerImageView.setOnClickListener(v -> notifyCategorySelected(Category4Season.SUMMER));
+        autumnImageView.setOnClickListener(v -> notifyCategorySelected(Category4Season.AUTUMN));
+        winterImageView.setOnClickListener(v -> notifyCategorySelected(Category4Season.WINTER));
+
+        return view;
+    }
+
+    private void notifyCategorySelected(Category4Season category) {
+        if (categorySelectedListener != null) {
+            categorySelectedListener.onCategory4Selected(category);
         }
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_onboarding4, container, false);
     }
 }

@@ -1,66 +1,66 @@
 package com.app.tourguide.fragment;
 
+import android.content.Context;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.app.tourguide.R;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link Onboarding3Fragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import com.app.tourguide.R;
+import com.app.tourguide.enums.Category3Region;
+import com.google.android.material.imageview.ShapeableImageView;
+
 public class Onboarding3Fragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private ShapeableImageView asiaImageView, europeImageView, africaImageView, northAmericaImageView, southAmericaImageView;
+    private OnCategory3SelectedListener categorySelectedListener;
+    public interface OnCategory3SelectedListener {
+        void onCategory3Selected(Category3Region category);
+    }
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    @Override
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(context);
+        if (context instanceof OnCategory3SelectedListener) {
+            categorySelectedListener = (OnCategory3SelectedListener) context;
+        } else {
+            throw new ClassCastException(context.toString() + " must implement OnCategorySelectedListener.");
+        }
+    }
 
     public Onboarding3Fragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment Onboarding3Fragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static Onboarding3Fragment newInstance(String param1, String param2) {
-        Onboarding3Fragment fragment = new Onboarding3Fragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
+    public static Onboarding1Fragment newInstance(String param1, String param2) {
+        return new Onboarding1Fragment();
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_onboarding3, container, false);
+
+        asiaImageView = view.findViewById(R.id.asia);
+        europeImageView = view.findViewById(R.id.europe);
+        africaImageView = view.findViewById(R.id.africa);
+        northAmericaImageView = view.findViewById(R.id.northamerica);
+        southAmericaImageView = view.findViewById(R.id.southamerica);
+
+        asiaImageView.setOnClickListener(v -> notifyCategorySelected(Category3Region.ASIA));
+        europeImageView.setOnClickListener(v -> notifyCategorySelected(Category3Region.EUROPE));
+        africaImageView.setOnClickListener(v -> notifyCategorySelected(Category3Region.AFRICA));
+        northAmericaImageView.setOnClickListener(v -> notifyCategorySelected(Category3Region.NORTHAMERICA));
+        southAmericaImageView.setOnClickListener(v -> notifyCategorySelected(Category3Region.SOUTHAMERICA));
+
+        return view;
+    }
+
+    private void notifyCategorySelected(Category3Region category) {
+        if (categorySelectedListener != null) {
+            categorySelectedListener.onCategory3Selected(category);
         }
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_onboarding3, container, false);
     }
 }

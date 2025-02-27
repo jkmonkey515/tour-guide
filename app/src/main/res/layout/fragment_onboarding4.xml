@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_margin="30dp">
+            >
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/summer"
@@ -84,8 +84,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/winter"
                 app:layout_constraintHorizontal_bias="0.0"
-
-
                 app:shapeAppearanceOverlay="@style/CircleImageView"
                 app:srcCompat="@drawable/autumn"
                 app:strokeColor="@color/white"

@@ -18,10 +18,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_margin="30dp">
+            >
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/cultural"
+                android:id="@+id/asia"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
@@ -38,7 +38,7 @@
                 app:strokeWidth="2dp" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/nature"
+                android:id="@+id/europe"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_marginTop="100dp"
@@ -49,14 +49,14 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.902"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/cultural"
+                app:layout_constraintTop_toBottomOf="@id/asia"
                 app:shapeAppearanceOverlay="@style/CircleImageView"
                 app:srcCompat="@drawable/europe"
                 app:strokeColor="@color/white"
                 app:strokeWidth="2dp" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/natculture"
+                android:id="@+id/africa"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_marginTop="100dp"
@@ -67,14 +67,14 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.902"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/nature"
+                app:layout_constraintTop_toBottomOf="@id/europe"
                 app:shapeAppearanceOverlay="@style/CircleImageView"
                 app:srcCompat="@drawable/africa"
                 app:strokeColor="@color/white"
                 app:strokeWidth="2dp" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/natuenture"
+                android:id="@+id/southamerica"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_marginBottom="168dp"
@@ -82,8 +82,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:scaleType="centerCrop"
-                app:layout_constraintBottom_toBottomOf="@+id/natculture"
-                app:layout_constraintEnd_toStartOf="@+id/natculture"
+                app:layout_constraintBottom_toBottomOf="@+id/africa"
+                app:layout_constraintEnd_toStartOf="@+id/africa"
                 app:layout_constraintHorizontal_bias="0.408"
                 app:layout_constraintStart_toStartOf="parent"
                 app:shapeAppearanceOverlay="@style/CircleImageView"
@@ -92,7 +92,7 @@
                 app:strokeWidth="2dp" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/adventure"
+                android:id="@+id/northamerica"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_marginBottom="128dp"
@@ -100,8 +100,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:scaleType="centerCrop"
-                app:layout_constraintBottom_toTopOf="@+id/natuenture"
-                app:layout_constraintEnd_toStartOf="@+id/cultural"
+                app:layout_constraintBottom_toTopOf="@+id/southamerica"
+                app:layout_constraintEnd_toStartOf="@+id/asia"
                 app:layout_constraintHorizontal_bias="0.408"
                 app:layout_constraintStart_toStartOf="parent"
                 app:shapeAppearanceOverlay="@style/CircleImageView"

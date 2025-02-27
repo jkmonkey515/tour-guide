@@ -1,5 +1,6 @@
 package com.app.tourguide.enums;
 
-public enum Category4Days {
-    THREEDAYS, FIVEDAYS, SEVENDAYS
+//season
+public enum Category4Season {
+    SPRING, SUMMER, AUTUMN, WINTER
 }
