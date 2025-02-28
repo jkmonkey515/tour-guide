@@ -6,10 +6,13 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "tour_guide.db";
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2; // Updated version
 
     public static final String TABLE_TOURS = "tours";
-    public static final String COLUMN_ID = "_id";
+    public static final String COLUMN_ID = "_id"; // Primary Key
+    public static final String COLUMN_COUNTRY = "country";
+    public static final String COLUMN_FLAG = "flag"; // URL or resource path
+    public static final String COLUMN_SCHEDULE = "schedule"; // Stored as comma-separated string
     public static final String COLUMN_TITLE = "title";
     public static final String COLUMN_CATEGORY = "category";
     public static final String COLUMN_REGION = "region";
@@ -21,6 +24,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String TABLE_CREATE =
             "CREATE TABLE " + TABLE_TOURS + " (" +
                     COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                    COLUMN_COUNTRY + " TEXT, " +
+                    COLUMN_FLAG + " TEXT, " +
+                    COLUMN_SCHEDULE + " TEXT, " + // Store schedule as a comma-separated string
                     COLUMN_TITLE + " TEXT, " +
                     COLUMN_CATEGORY + " TEXT, " +
                     COLUMN_REGION + " TEXT, " +
@@ -40,7 +46,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_TOURS);
-        onCreate(db);
+        if (oldVersion < 2) { // Upgrade logic for version 2
+            db.execSQL("ALTER TABLE " + TABLE_TOURS + " ADD COLUMN " + COLUMN_COUNTRY + " TEXT;");
+            db.execSQL("ALTER TABLE " + TABLE_TOURS + " ADD COLUMN " + COLUMN_FLAG + " TEXT;");
+            db.execSQL("ALTER TABLE " + TABLE_TOURS + " ADD COLUMN " + COLUMN_SCHEDULE + " TEXT;");
+        }
     }
 }

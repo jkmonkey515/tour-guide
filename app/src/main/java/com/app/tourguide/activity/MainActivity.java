@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements
 
     int currentPageIndex = 0;
     TextView txvTitle;
-    private ProgressBar progressBar;
 
     private Category1Type selectedCategory1;
     private Category2Theme selectedCategory2;
@@ -47,7 +46,6 @@ public class MainActivity extends AppCompatActivity implements
     private Category4Season selectedCategory4;
     private Category5Duration selectedCategory5;
 
-    private Button nextButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,13 +54,6 @@ public class MainActivity extends AppCompatActivity implements
         setContentView(R.layout.activity_main);
 
         txvTitle = findViewById(R.id.titleTextView);
-        progressBar = findViewById(R.id.progressBar);
-        updateUI();
-
-        nextButton = findViewById(R.id.btnNext);
-        nextButton.setEnabled(false);
-
-        nextButton.setOnClickListener(this::moveToNextFragment);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -76,7 +67,6 @@ public class MainActivity extends AppCompatActivity implements
         }
 
         new DataImporter(this).importDataFromJson();
-
     }
 
     private void loadFragment(Fragment fragment) {
@@ -86,7 +76,26 @@ public class MainActivity extends AppCompatActivity implements
         fragmentTransaction.commit();
     }
 
-    public void moveToNextFragment(View view) {
+    private void updateUI() {
+        String[] tripQuestions = getResources().getStringArray(R.array.trip_questions);
+
+        if (currentPageIndex < tripQuestions.length) {
+            txvTitle.setText(tripQuestions[currentPageIndex]);
+        }
+    }
+
+    private void next() {
+        Intent intent = new Intent(MainActivity.this, TourGuideActivity.class);
+        intent.putExtra("category1", selectedCategory1.toString());
+        intent.putExtra("category2", selectedCategory2.toString());
+        intent.putExtra("category3", selectedCategory3.toString());
+        intent.putExtra("category4", selectedCategory4.toString());
+        intent.putExtra("category5", selectedCategory5.toString());
+        startActivity(intent);
+    }
+
+
+    public void goToNextFragment() {
         currentPageIndex++;
         updateUI();
 
@@ -110,64 +119,41 @@ public class MainActivity extends AppCompatActivity implements
         }
 
         if (nextFragment != null) {
-            loadFragment(nextFragment);
-            nextButton.setEnabled(false); // Disable the button until new selection is made
+            loadFragment(nextFragment); // Disable the button until new selection is made
         }
     }
-
-    private void updateUI() {
-        String[] tripQuestions = getResources().getStringArray(R.array.trip_questions);
-
-        if (currentPageIndex < tripQuestions.length) {
-            txvTitle.setText(tripQuestions[currentPageIndex]);
-            progressBar.setMax(5);
-            progressBar.setProgress(currentPageIndex + 1);
-        }
-    }
-
-    private void next() {
-        Intent intent = new Intent(MainActivity.this, TourGuideActivity.class);
-        intent.putExtra("category1", selectedCategory1.toString());
-        intent.putExtra("category2", selectedCategory2.toString());
-        intent.putExtra("category3", selectedCategory3.toString());
-        intent.putExtra("category4", selectedCategory4.toString());
-        intent.putExtra("category5", selectedCategory5.toString());
-        startActivity(intent);
-    }
-
 
     @Override
     public void onCategory1Selected(Category1Type category) {
         selectedCategory1 = category;
-        nextButton.setEnabled(true);
-        Toast.makeText(this, "Selected Category1: " + category.name(), Toast.LENGTH_SHORT).show();
+        goToNextFragment();
     }
 
     @Override
     public void onCategory2Selected(Category2Theme category) {
         selectedCategory2 = category;
-        nextButton.setEnabled(true);
+        goToNextFragment();
         Toast.makeText(this, "Selected Category2: " + category.name(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onCategory3Selected(Category3Region category) {
         selectedCategory3 = category;
-        nextButton.setEnabled(true);
+        goToNextFragment();
         Toast.makeText(this, "Selected Category3: " + category.name(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onCategory4Selected(Category4Season category) {
         selectedCategory4 = category;
-        nextButton.setEnabled(true);
+        goToNextFragment();
         Toast.makeText(this, "Selected Category4: " + category.name(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onCategory5Selected(Category5Duration category) {
         selectedCategory5 = category;
-        nextButton.setEnabled(true);
+        goToNextFragment();
         Toast.makeText(this, "Selected Category5: " + category.name(), Toast.LENGTH_SHORT).show();
     }
 }

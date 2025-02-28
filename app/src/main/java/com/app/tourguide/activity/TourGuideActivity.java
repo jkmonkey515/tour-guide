@@ -61,15 +61,37 @@ public class TourGuideActivity extends AppCompatActivity {
 
         if (filteredTours.isEmpty()) {
             // Add an empty state message when no results are found
-            items.add(new TourItem("No Tours Available", "Try adjusting your search filters."));
+            items.add(new TourItem(
+                    -1,  // Default ID for empty state
+                    "No Tours Available",
+                    "N/A",  // No specific region
+                    "N/A",  // No specific season
+                    "N/A",  // No duration
+                    "Try adjusting your search filters.",
+                    "N/A",  // No specific country
+                    "",  // No flag URL
+                    new ArrayList<>() // Empty schedule list
+            ));
         } else {
             for (Tour tour : filteredTours) {
-                items.add(new TourItem(tour.getTitle(), tour.getDescription()));
+                items.add(new TourItem(
+                        tour.getId(),  // Ensure Tour class has getId()
+                        tour.getTitle(),
+                        tour.getRegion(),
+                        tour.getSeason(),
+                        tour.getDuration(),
+                        tour.getDescription(),
+                        tour.getCountry(),  // Ensure Tour class has getCountry()
+                        tour.getFlag(),  // Ensure Tour class has getFlag()
+                        tour.getSchedule() // Ensure Tour class has getSchedule() returning List<String>
+                ));
             }
         }
+
 
         ItemAdapter adapter = new ItemAdapter(this, items);
         listView.setAdapter(adapter);
     }
+
 
 }

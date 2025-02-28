@@ -6,26 +6,48 @@
                 "FAMILY",
                 "YOUTH"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "NATURE"
             ],
             "season": "SUMMER",
             "duration": "7 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 1,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Santorini Sunset Escape",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "NORTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "SPRING",
             "duration": "5 days",
-            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature."
+            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature.",
+            "id": 2,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Canadian Winter Wonderland",
@@ -33,14 +55,22 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "SPRING",
             "duration": "3 days",
-            "description": "A dreamy cultural retreat with stunning views and historical sites."
+            "description": "A dreamy cultural retreat with stunning views and historical sites.",
+            "id": 3,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Amazon Rainforest Adventure",
@@ -48,14 +78,22 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "NORTHAMERICA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "CULTURAL",
                 "ADVENTURE"
             ],
             "season": "SUMMER",
             "duration": "3 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 4,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Machu Picchu Historical Trek",
@@ -63,13 +101,21 @@
                 "FAMILY",
                 "ROMANTIC"
             ],
-            "region": "NORTHAMERICA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "NATCULTURE"
             ],
             "season": "WINTER",
             "duration": "3 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 5,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Bali Wellness and Yoga Retreat",
@@ -82,20 +128,42 @@
             ],
             "season": "AUTUMN",
             "duration": "7 days",
-            "description": "A dreamy cultural retreat with stunning views and historical sites."
+            "description": "A dreamy cultural retreat with stunning views and historical sites.",
+            "id": 6,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Patagonian Glacier Expedition",
             "category": [
                 "YOUTH"
             ],
-            "region": "ASIA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "ADVENTURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "Witness stunning natural wonders and immerse yourself in local traditions."
+            "description": "Witness stunning natural wonders and immerse yourself in local traditions.",
+            "id": 7,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Machu Picchu Historical Trek",
@@ -110,20 +178,42 @@
             ],
             "season": "SPRING",
             "duration": "7 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 8,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Great Wall of China Exploration",
             "category": [
                 "YOUTH"
             ],
-            "region": "NORTHAMERICA",
+            "region": "ASIA",
             "theme": [
                 "CULTURAL"
             ],
             "season": "AUTUMN",
             "duration": "5 days",
-            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife."
+            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife.",
+            "id": 9,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Patagonian Glacier Expedition",
@@ -131,13 +221,21 @@
                 "FAMILY",
                 "YOUTH"
             ],
-            "region": "NORTHAMERICA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "SUMMER",
             "duration": "3 days",
-            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife."
+            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife.",
+            "id": 10,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Cherry Blossom Tour in Japan",
@@ -145,14 +243,26 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "ASIA",
             "theme": [
                 "CULTURAL",
                 "NATURE"
             ],
             "season": "SPRING",
             "duration": "7 days",
-            "description": "A romantic and thrilling experience in a picturesque setting."
+            "description": "A romantic and thrilling experience in a picturesque setting.",
+            "id": 11,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Machu Picchu Historical Trek",
@@ -160,27 +270,49 @@
                 "FAMILY",
                 "YOUTH"
             ],
-            "region": "NORTHAMERICA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "CULTURAL",
                 "ADVENTURE"
             ],
             "season": "WINTER",
             "duration": "7 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 12,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Amazon Rainforest Adventure",
             "category": [
                 "YOUTH"
             ],
-            "region": "EUROPE",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "NATURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "A perfect blend of relaxation, culture, and adventure in one unforgettable trip."
+            "description": "A perfect blend of relaxation, culture, and adventure in one unforgettable trip.",
+            "id": 13,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Scandinavian Fjords Cruise",
@@ -194,7 +326,15 @@
             ],
             "season": "SPRING",
             "duration": "3 days",
-            "description": "A dreamy cultural retreat with stunning views and historical sites."
+            "description": "A dreamy cultural retreat with stunning views and historical sites.",
+            "id": 14,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Iceland Volcano and Ice Cave Tour",
@@ -202,27 +342,47 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "EUROPE",
             "theme": [
                 "CULTURAL"
             ],
             "season": "AUTUMN",
             "duration": "5 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 15,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Grand Canyon Hiking Trip",
             "category": [
                 "YOUTH"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "CULTURAL",
                 "ADVENTURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "A perfect blend of relaxation, culture, and adventure in one unforgettable trip."
+            "description": "A perfect blend of relaxation, culture, and adventure in one unforgettable trip.",
+            "id": 16,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Romantic Getaway in Paris",
@@ -236,21 +396,41 @@
             ],
             "season": "SPRING",
             "duration": "5 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 17,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Great Wall of China Exploration",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "ASIA",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "SUMMER",
             "duration": "5 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 18,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Bali Wellness and Yoga Retreat",
@@ -259,27 +439,45 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "ASIA",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "A romantic and thrilling experience in a picturesque setting."
+            "description": "A romantic and thrilling experience in a picturesque setting.",
+            "id": 19,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Santorini Sunset Escape",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "NORTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "CULTURAL"
             ],
             "season": "WINTER",
             "duration": "3 days",
-            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife."
+            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife.",
+            "id": 20,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Alaskan Northern Lights Tour",
@@ -287,14 +485,24 @@
                 "FAMILY",
                 "YOUTH"
             ],
-            "region": "EUROPE",
+            "region": "NORTHAMERICA",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "SPRING",
             "duration": "5 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 21,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Romantic Getaway in Paris",
@@ -303,14 +511,26 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "ASIA",
+            "region": "EUROPE",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "SPRING",
             "duration": "7 days",
-            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife."
+            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife.",
+            "id": 22,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Australia Great Barrier Reef Dive",
@@ -318,27 +538,47 @@
                 "FAMILY",
                 "YOUTH"
             ],
-            "region": "ASIA",
+            "region": "AUSTRALIA",
             "theme": [
                 "CULTURAL",
                 "NATURE"
             ],
             "season": "AUTUMN",
             "duration": "5 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 23,
+            "country": "Australia",
+            "flag": "@drawable/flag_australia",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Australia Great Barrier Reef Dive",
             "category": [
                 "FAMILY"
             ],
-            "region": "EUROPE",
+            "region": "AUSTRALIA",
             "theme": [
                 "NATURE"
             ],
             "season": "AUTUMN",
             "duration": "5 days",
-            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife."
+            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife.",
+            "id": 24,
+            "country": "Australia",
+            "flag": "@drawable/flag_australia",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Santorini Sunset Escape",
@@ -353,20 +593,42 @@
             ],
             "season": "AUTUMN",
             "duration": "5 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 25,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Grand Canyon Hiking Trip",
             "category": [
                 "FAMILY"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "WINTER",
             "duration": "7 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 26,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Santorini Sunset Escape",
@@ -375,26 +637,48 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "SUMMER",
             "duration": "7 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 27,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Thailand Island Hopping",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "ASIA",
             "theme": [
                 "NATCULTURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature."
+            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature.",
+            "id": 28,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "African Safari Expedition",
@@ -408,7 +692,19 @@
             ],
             "season": "SPRING",
             "duration": "7 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 29,
+            "country": "South Africa",
+            "flag": "@drawable/flag_south_africa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Australia Great Barrier Reef Dive",
@@ -417,13 +713,23 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "AUSTRALIA",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 30,
+            "country": "Australia",
+            "flag": "@drawable/flag_australia",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Grand Canyon Hiking Trip",
@@ -432,26 +738,46 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "EUROPE",
+            "region": "NORTHAMERICA",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "SUMMER",
             "duration": "7 days",
-            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites."
+            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites.",
+            "id": 31,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Patagonian Glacier Expedition",
             "category": [
                 "FAMILY"
             ],
-            "region": "AFRICA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "SUMMER",
             "duration": "3 days",
-            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites."
+            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites.",
+            "id": 32,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Venetian Gondola Romance",
@@ -464,7 +790,15 @@
             ],
             "season": "WINTER",
             "duration": "3 days",
-            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife."
+            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife.",
+            "id": 33,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Santorini Sunset Escape",
@@ -472,13 +806,25 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "NORTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "NATCULTURE"
             ],
             "season": "AUTUMN",
             "duration": "7 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 34,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Venetian Gondola Romance",
@@ -487,39 +833,71 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "ASIA",
+            "region": "EUROPE",
             "theme": [
                 "NATURE"
             ],
             "season": "WINTER",
             "duration": "7 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 35,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Iceland Volcano and Ice Cave Tour",
             "category": [
                 "YOUTH"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "SUMMER",
             "duration": "5 days",
-            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature."
+            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature.",
+            "id": 36,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Bali Wellness and Yoga Retreat",
             "category": [
                 "YOUTH"
             ],
-            "region": "EUROPE",
+            "region": "ASIA",
             "theme": [
                 "ADVENTURE"
             ],
             "season": "SUMMER",
             "duration": "5 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 37,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Grand Canyon Hiking Trip",
@@ -527,40 +905,68 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "ASIA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "NATCULTURE"
             ],
             "season": "WINTER",
             "duration": "3 days",
-            "description": "Witness stunning natural wonders and immerse yourself in local traditions."
+            "description": "Witness stunning natural wonders and immerse yourself in local traditions.",
+            "id": 38,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Australia Great Barrier Reef Dive",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "EUROPE",
+            "region": "AUSTRALIA",
             "theme": [
                 "CULTURAL",
                 "NATURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "A romantic and thrilling experience in a picturesque setting."
+            "description": "A romantic and thrilling experience in a picturesque setting.",
+            "id": 39,
+            "country": "Australia",
+            "flag": "@drawable/flag_australia",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Scandinavian Fjords Cruise",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "ADVENTURE"
             ],
             "season": "AUTUMN",
             "duration": "5 days",
-            "description": "A romantic and thrilling experience in a picturesque setting."
+            "description": "A romantic and thrilling experience in a picturesque setting.",
+            "id": 40,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Great Wall of China Exploration",
@@ -569,27 +975,51 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "EUROPE",
+            "region": "ASIA",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "AUTUMN",
             "duration": "7 days",
-            "description": "Witness stunning natural wonders and immerse yourself in local traditions."
+            "description": "Witness stunning natural wonders and immerse yourself in local traditions.",
+            "id": 41,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Swiss Alps Skiing Retreat",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "NATURE"
             ],
             "season": "SUMMER",
             "duration": "7 days",
-            "description": "A perfect blend of relaxation, culture, and adventure in one unforgettable trip."
+            "description": "A perfect blend of relaxation, culture, and adventure in one unforgettable trip.",
+            "id": 42,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Great Wall of China Exploration",
@@ -603,21 +1033,41 @@
             ],
             "season": "SUMMER",
             "duration": "5 days",
-            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites."
+            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites.",
+            "id": 43,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Egyptian Pyramids Discovery",
             "category": [
                 "FAMILY"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "AFRICA",
             "theme": [
                 "CULTURAL",
                 "ADVENTURE"
             ],
             "season": "SUMMER",
             "duration": "5 days",
-            "description": "Witness stunning natural wonders and immerse yourself in local traditions."
+            "description": "Witness stunning natural wonders and immerse yourself in local traditions.",
+            "id": 44,
+            "country": "South Africa",
+            "flag": "@drawable/flag_south_africa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Venetian Gondola Romance",
@@ -625,13 +1075,25 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "NATURE"
             ],
             "season": "AUTUMN",
             "duration": "7 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 45,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Alaskan Northern Lights Tour",
@@ -639,14 +1101,24 @@
                 "FAMILY",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 46,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Australia Great Barrier Reef Dive",
@@ -654,27 +1126,47 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "NORTHAMERICA",
+            "region": "AUSTRALIA",
             "theme": [
                 "NATCULTURE"
             ],
             "season": "WINTER",
             "duration": "3 days",
-            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature."
+            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature.",
+            "id": 47,
+            "country": "Australia",
+            "flag": "@drawable/flag_australia",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "New York City Cultural Experience",
             "category": [
                 "YOUTH"
             ],
-            "region": "EUROPE",
+            "region": "NORTHAMERICA",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "AUTUMN",
             "duration": "7 days",
-            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites."
+            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites.",
+            "id": 48,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "African Safari Expedition",
@@ -683,14 +1175,22 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "ASIA",
+            "region": "AFRICA",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "SUMMER",
             "duration": "3 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 49,
+            "country": "South Africa",
+            "flag": "@drawable/flag_south_africa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Amazon Rainforest Adventure",
@@ -698,26 +1198,48 @@
                 "FAMILY",
                 "ROMANTIC"
             ],
-            "region": "EUROPE",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "ADVENTURE"
             ],
             "season": "AUTUMN",
             "duration": "7 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 50,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "New York City Cultural Experience",
             "category": [
                 "YOUTH"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "NATCULTURE"
             ],
             "season": "SUMMER",
             "duration": "5 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 51,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Swiss Alps Skiing Retreat",
@@ -726,13 +1248,25 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "ASIA",
+            "region": "EUROPE",
             "theme": [
                 "NATCULTURE"
             ],
             "season": "SUMMER",
             "duration": "7 days",
-            "description": "A romantic and thrilling experience in a picturesque setting."
+            "description": "A romantic and thrilling experience in a picturesque setting.",
+            "id": 52,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Scandinavian Fjords Cruise",
@@ -741,26 +1275,46 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "EUROPE",
             "theme": [
                 "NATURE"
             ],
             "season": "AUTUMN",
             "duration": "3 days",
-            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife."
+            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife.",
+            "id": 53,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Iceland Volcano and Ice Cave Tour",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "EUROPE",
             "theme": [
                 "ADVENTURE"
             ],
             "season": "AUTUMN",
             "duration": "7 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 54,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Patagonian Glacier Expedition",
@@ -775,7 +1329,17 @@
             ],
             "season": "AUTUMN",
             "duration": "5 days",
-            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites."
+            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites.",
+            "id": 55,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Romantic Getaway in Paris",
@@ -789,7 +1353,17 @@
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites."
+            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites.",
+            "id": 56,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Amazon Rainforest Adventure",
@@ -797,27 +1371,49 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "CULTURAL"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "Witness stunning natural wonders and immerse yourself in local traditions."
+            "description": "Witness stunning natural wonders and immerse yourself in local traditions.",
+            "id": 57,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "New York City Cultural Experience",
             "category": [
                 "FAMILY"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "SPRING",
             "duration": "7 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 58,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Egyptian Pyramids Discovery",
@@ -826,14 +1422,24 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "ASIA",
+            "region": "AFRICA",
             "theme": [
                 "CULTURAL",
                 "ADVENTURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "Witness stunning natural wonders and immerse yourself in local traditions."
+            "description": "Witness stunning natural wonders and immerse yourself in local traditions.",
+            "id": 59,
+            "country": "South Africa",
+            "flag": "@drawable/flag_south_africa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Alaskan Northern Lights Tour",
@@ -841,14 +1447,22 @@
                 "FAMILY",
                 "ROMANTIC"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "CULTURAL",
                 "ADVENTURE"
             ],
             "season": "SPRING",
             "duration": "3 days",
-            "description": "A dreamy cultural retreat with stunning views and historical sites."
+            "description": "A dreamy cultural retreat with stunning views and historical sites.",
+            "id": 60,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Cherry Blossom Tour in Japan",
@@ -862,7 +1476,19 @@
             ],
             "season": "AUTUMN",
             "duration": "7 days",
-            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife."
+            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife.",
+            "id": 61,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Grand Canyon Hiking Trip",
@@ -870,14 +1496,26 @@
                 "FAMILY",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "CULTURAL",
                 "NATURE"
             ],
             "season": "SPRING",
             "duration": "7 days",
-            "description": "A romantic and thrilling experience in a picturesque setting."
+            "description": "A romantic and thrilling experience in a picturesque setting.",
+            "id": 62,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Amazon Rainforest Adventure",
@@ -885,14 +1523,26 @@
                 "FAMILY",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "CULTURAL",
                 "ADVENTURE"
             ],
             "season": "AUTUMN",
             "duration": "7 days",
-            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature."
+            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature.",
+            "id": 63,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "African Safari Expedition",
@@ -900,13 +1550,25 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "AFRICA",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "SUMMER",
             "duration": "7 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 64,
+            "country": "South Africa",
+            "flag": "@drawable/flag_south_africa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Romantic Getaway in Paris",
@@ -915,52 +1577,94 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "NORTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "SPRING",
             "duration": "3 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 65,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Grand Canyon Hiking Trip",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "SUMMER",
             "duration": "5 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 66,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Thailand Island Hopping",
             "category": [
                 "FAMILY"
             ],
-            "region": "AFRICA",
+            "region": "ASIA",
             "theme": [
                 "CULTURAL"
             ],
             "season": "SUMMER",
             "duration": "7 days",
-            "description": "A romantic and thrilling experience in a picturesque setting."
+            "description": "A romantic and thrilling experience in a picturesque setting.",
+            "id": 67,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Machu Picchu Historical Trek",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "NORTHAMERICA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "NATURE"
             ],
             "season": "SPRING",
             "duration": "7 days",
-            "description": "Witness stunning natural wonders and immerse yourself in local traditions."
+            "description": "Witness stunning natural wonders and immerse yourself in local traditions.",
+            "id": 68,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Machu Picchu Historical Trek",
@@ -968,40 +1672,68 @@
                 "FAMILY",
                 "ROMANTIC"
             ],
-            "region": "ASIA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "CULTURAL",
                 "ADVENTURE"
             ],
             "season": "WINTER",
             "duration": "3 days",
-            "description": "Witness stunning natural wonders and immerse yourself in local traditions."
+            "description": "Witness stunning natural wonders and immerse yourself in local traditions.",
+            "id": 69,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Patagonian Glacier Expedition",
             "category": [
                 "FAMILY"
             ],
-            "region": "EUROPE",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "CULTURAL"
             ],
             "season": "SUMMER",
             "duration": "7 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 70,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "New York City Cultural Experience",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "ADVENTURE"
             ],
             "season": "WINTER",
             "duration": "3 days",
-            "description": "A dreamy cultural retreat with stunning views and historical sites."
+            "description": "A dreamy cultural retreat with stunning views and historical sites.",
+            "id": 71,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Amazon Rainforest Adventure",
@@ -1010,13 +1742,25 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "ADVENTURE"
             ],
             "season": "SPRING",
             "duration": "7 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 72,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Swiss Alps Skiing Retreat",
@@ -1024,27 +1768,45 @@
                 "FAMILY",
                 "YOUTH"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "CULTURAL"
             ],
             "season": "AUTUMN",
             "duration": "5 days",
-            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife."
+            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife.",
+            "id": 73,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Great Wall of China Exploration",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "EUROPE",
+            "region": "ASIA",
             "theme": [
                 "CULTURAL",
                 "NATURE"
             ],
             "season": "WINTER",
             "duration": "3 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 74,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Machu Picchu Historical Trek",
@@ -1057,34 +1819,68 @@
             ],
             "season": "AUTUMN",
             "duration": "7 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 75,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Great Wall of China Exploration",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "ASIA",
             "theme": [
                 "CULTURAL"
             ],
             "season": "WINTER",
             "duration": "7 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 76,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Alaskan Northern Lights Tour",
             "category": [
                 "FAMILY"
             ],
-            "region": "EUROPE",
+            "region": "NORTHAMERICA",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "SPRING",
             "duration": "5 days",
-            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature."
+            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature.",
+            "id": 77,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Romantic Getaway in Paris",
@@ -1100,27 +1896,22 @@
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites."
+            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites.",
+            "id": 78,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Scandinavian Fjords Cruise",
             "category": [
                 "ROMANTIC"
-            ],
-            "region": "ASIA",
-            "theme": [
-                "CULTURAL",
-                "NATURE"
-            ],
-            "season": "SUMMER",
-            "duration": "7 days",
-            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature."
-        },
-        {
-            "title": "Amazon Rainforest Adventure",
-            "category": [
-                "FAMILY",
-                "YOUTH"
             ],
             "region": "EUROPE",
             "theme": [
@@ -1129,7 +1920,46 @@
             ],
             "season": "SUMMER",
             "duration": "7 days",
-            "description": "A dreamy cultural retreat with stunning views and historical sites."
+            "description": "A breathtaking adventure through scenic landscapes, rich in culture and nature.",
+            "id": 79,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
+        },
+        {
+            "title": "Amazon Rainforest Adventure",
+            "category": [
+                "FAMILY",
+                "YOUTH"
+            ],
+            "region": "SOUTHAMERICA",
+            "theme": [
+                "CULTURAL",
+                "NATURE"
+            ],
+            "season": "SUMMER",
+            "duration": "7 days",
+            "description": "A dreamy cultural retreat with stunning views and historical sites.",
+            "id": 80,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Santorini Sunset Escape",
@@ -1138,27 +1968,47 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "ASIA",
+            "region": "EUROPE",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 81,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Amazon Rainforest Adventure",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "ASIA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "CULTURAL",
                 "ADVENTURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites."
+            "description": "Experience the thrill of outdoor exploration and discover ancient heritage sites.",
+            "id": 82,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Santorini Sunset Escape",
@@ -1167,27 +2017,47 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "EUROPE",
             "theme": [
                 "CULTURAL",
                 "NATURE"
             ],
             "season": "AUTUMN",
             "duration": "3 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 83,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Thailand Island Hopping",
             "category": [
                 "YOUTH"
             ],
-            "region": "NORTHAMERICA",
+            "region": "ASIA",
             "theme": [
                 "NATCULTURE"
             ],
             "season": "SUMMER",
             "duration": "7 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 84,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Great Wall of China Exploration",
@@ -1202,21 +2072,37 @@
             ],
             "season": "SUMMER",
             "duration": "3 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 85,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Thailand Island Hopping",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "EUROPE",
+            "region": "ASIA",
             "theme": [
                 "CULTURAL",
                 "NATURE"
             ],
             "season": "AUTUMN",
             "duration": "3 days",
-            "description": "A dreamy cultural retreat with stunning views and historical sites."
+            "description": "A dreamy cultural retreat with stunning views and historical sites.",
+            "id": 86,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Alaskan Northern Lights Tour",
@@ -1225,27 +2111,43 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "CULTURAL",
                 "ADVENTURE"
             ],
             "season": "SPRING",
             "duration": "3 days",
-            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife."
+            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife.",
+            "id": 87,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Santorini Sunset Escape",
             "category": [
                 "YOUTH"
             ],
-            "region": "NORTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "SPRING",
             "duration": "3 days",
-            "description": "A dreamy cultural retreat with stunning views and historical sites."
+            "description": "A dreamy cultural retreat with stunning views and historical sites.",
+            "id": 88,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Scandinavian Fjords Cruise",
@@ -1260,7 +2162,17 @@
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 89,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Amazon Rainforest Adventure",
@@ -1269,13 +2181,25 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "EUROPE",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "CULTURAL"
             ],
             "season": "SUMMER",
             "duration": "7 days",
-            "description": "A perfect blend of relaxation, culture, and adventure in one unforgettable trip."
+            "description": "A perfect blend of relaxation, culture, and adventure in one unforgettable trip.",
+            "id": 90,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Iceland Volcano and Ice Cave Tour",
@@ -1283,13 +2207,21 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "ADVENTURE"
             ],
             "season": "AUTUMN",
             "duration": "3 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 91,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Romantic Getaway in Paris",
@@ -1298,14 +2230,24 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "NORTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "WINTER",
             "duration": "5 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 92,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Swiss Alps Skiing Retreat",
@@ -1313,13 +2255,23 @@
                 "FAMILY",
                 "YOUTH"
             ],
-            "region": "NORTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "NATURE"
             ],
             "season": "SPRING",
             "duration": "5 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 93,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Grand Canyon Hiking Trip",
@@ -1327,13 +2279,25 @@
                 "FAMILY",
                 "YOUTH"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "NATCULTURE"
             ],
             "season": "WINTER",
             "duration": "7 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 94,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Swiss Alps Skiing Retreat",
@@ -1342,14 +2306,26 @@
                 "YOUTH",
                 "ROMANTIC"
             ],
-            "region": "SOUTHAMERICA",
+            "region": "EUROPE",
             "theme": [
                 "CULTURAL",
                 "NATURE"
             ],
             "season": "AUTUMN",
             "duration": "7 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 95,
+            "country": "France",
+            "flag": "@drawable/flag_france",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5",
+                "Day 6: Activity details for day 6",
+                "Day 7: Activity details for day 7"
+            ]
         },
         {
             "title": "Canadian Winter Wonderland",
@@ -1357,14 +2333,22 @@
                 "FAMILY",
                 "YOUTH"
             ],
-            "region": "AFRICA",
+            "region": "NORTHAMERICA",
             "theme": [
                 "CULTURAL",
                 "ADVENTURE"
             ],
             "season": "SUMMER",
             "duration": "3 days",
-            "description": "Witness stunning natural wonders and immerse yourself in local traditions."
+            "description": "Witness stunning natural wonders and immerse yourself in local traditions.",
+            "id": 96,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Cherry Blossom Tour in Japan",
@@ -1372,40 +2356,68 @@
                 "FAMILY",
                 "ROMANTIC"
             ],
-            "region": "EUROPE",
+            "region": "ASIA",
             "theme": [
                 "ADVENTURE"
             ],
             "season": "AUTUMN",
             "duration": "5 days",
-            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations."
+            "description": "An adrenaline-pumping adventure in one of the world's most iconic locations.",
+            "id": 97,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "Patagonian Glacier Expedition",
             "category": [
                 "YOUTH"
             ],
-            "region": "NORTHAMERICA",
+            "region": "SOUTHAMERICA",
             "theme": [
                 "ADVENTURE",
                 "NATURE"
             ],
             "season": "SPRING",
             "duration": "5 days",
-            "description": "Explore world-famous landmarks and enjoy unique regional cuisines."
+            "description": "Explore world-famous landmarks and enjoy unique regional cuisines.",
+            "id": 98,
+            "country": "Brazil",
+            "flag": "@drawable/flag_brazil",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         },
         {
             "title": "New York City Cultural Experience",
             "category": [
                 "ROMANTIC"
             ],
-            "region": "EUROPE",
+            "region": "NORTHAMERICA",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "AUTUMN",
             "duration": "3 days",
-            "description": "A memorable escape to nature's finest destinations, perfect for all ages."
+            "description": "A memorable escape to nature's finest destinations, perfect for all ages.",
+            "id": 99,
+            "country": "United States",
+            "flag": "@drawable/flag_usa",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3"
+            ]
         },
         {
             "title": "Great Wall of China Exploration",
@@ -1413,13 +2425,23 @@
                 "FAMILY",
                 "YOUTH"
             ],
-            "region": "EUROPE",
+            "region": "ASIA",
             "theme": [
                 "NATVENTURE"
             ],
             "season": "AUTUMN",
             "duration": "5 days",
-            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife."
+            "description": "An exhilarating journey through breathtaking scenery and exotic wildlife.",
+            "id": 100,
+            "country": "Japan",
+            "flag": "@drawable/flag_japan",
+            "schedule": [
+                "Day 1: Activity details for day 1",
+                "Day 2: Activity details for day 2",
+                "Day 3: Activity details for day 3",
+                "Day 4: Activity details for day 4",
+                "Day 5: Activity details for day 5"
+            ]
         }
     ]
 }

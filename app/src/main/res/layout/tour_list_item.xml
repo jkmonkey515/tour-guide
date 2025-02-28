@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -9,10 +8,8 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Canadian Winter Wonderland"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
         android:textAlignment="center"
         android:gravity="center"/>
 
@@ -20,47 +17,66 @@
         android:id="@+id/category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Category: FAMILY, YOUTH"
         android:textSize="18sp"
-        android:textColor="@android:color/black"/>
+        android:textStyle="italic"/>
 
     <TextView
         android:id="@+id/region"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Region: AFRICA"
-        android:textSize="18sp"
-        android:textColor="@android:color/black"/>
+        android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/theme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Theme: NATURE"
         android:textSize="18sp"
-        android:textColor="@android:color/black"/>
+        android:textStyle="italic"/>
 
     <TextView
         android:id="@+id/season"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Season: SUMMER"
-        android:textSize="18sp"
-        android:textColor="@android:color/black"/>
+        android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/duration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Duration: 7 days"
-        android:textSize="18sp"
-        android:textColor="@android:color/black"/>
+        android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A memorable escape to nature's finest destinations, perfect for all ages."
-        android:textSize="18sp"
-        android:textColor="@android:color/black"/>
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:id="@+id/flag"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule"/>
+
 </LinearLayout>
