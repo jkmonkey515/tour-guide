@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     private void next() {
-        Intent intent = new Intent(MainActivity.this, TourGuideActivity.class);
+        Intent intent = new Intent(MainActivity.this, GetStartedActivity.class);
         intent.putExtra("category1", selectedCategory1.toString());
         intent.putExtra("category2", selectedCategory2.toString());
         intent.putExtra("category3", selectedCategory3.toString());
